@@ -1,3 +1,7 @@
-export default function IndexPage() {
-  return <div>Hey</div>;
-}
+const IndexPage = () => (
+  <>
+    <div>Hey</div>
+  </>
+);
+
+export default IndexPage;
