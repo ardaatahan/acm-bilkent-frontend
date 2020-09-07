@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Events = () => (
+const Events = ({ description, showButton }) => (
   <section className="text-gray-500 bg-gray-900 body-font">
     <div className="container px-5 py-12 mx-auto">
       <div className="flex flex-col">
@@ -12,8 +12,7 @@ const Events = () => (
             Etkinliklerimiz
           </h1>
           <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-            Bu dönem gerçekleştireceğimiz etkinliklerin sadece birkaçı. Daha
-            fazlası için etkinlikler sayfasını ziyaret etmeyi unutma!
+            {description}
           </p>
         </div>
       </div>
@@ -98,13 +97,15 @@ const Events = () => (
         </div>
       </div>
     </div>
-    <div className="flex justify-center">
-      <Link href="/events">
-        <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-          Etkinlikler Sayfası &rarr;
-        </button>
-      </Link>
-    </div>
+    {showButton ? (
+      <div className="flex justify-center">
+        <Link href="/events">
+          <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
+            Etkinlikler Sayfası &rarr;
+          </button>
+        </Link>
+      </div>
+    ) : null}
   </section>
 );
 

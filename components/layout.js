@@ -38,7 +38,7 @@ const Layout = ({ children, title, description }) => (
         </nav>
       </div>
     </header>
-    <main className="min-h-screen">
+    <main className="min-h-full">
       {/* <div className="container mx-auto px-3 xl:px-20">{children}</div> */}
       {children}
     </main>

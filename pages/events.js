@@ -1,11 +1,12 @@
 import Layout from "../components/layout";
+import Events from "../components/events";
 
 const EventsPage = () => (
   <Layout
     title="Etkinliklerimiz"
     description="ACM Bilkent Etkinliklerimiz Sayfası"
   >
-    <div>Hey</div>
+    <Events description="" showButton={false} />
   </Layout>
 );
 
