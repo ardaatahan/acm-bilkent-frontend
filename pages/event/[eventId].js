@@ -4,7 +4,10 @@ import Event from "../../components/event";
 import { fetchQuery } from "../../lib/utils";
 
 const EventPage = ({ event }) => (
-  <Layout title="" description="">
+  <Layout
+    title={`${event.title}`}
+    description={`ACM Bilkent ${event.title} Etkinliği`}
+  >
     <Event event={event} />
   </Layout>
 );
