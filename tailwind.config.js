@@ -1,3 +1,4 @@
+// prettier-ignore
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
@@ -10,6 +11,14 @@ module.exports = {
         "blue-500": "#1992CF",
         "blue-600": "#195FAA",
       },
+    },
+    minHeight: {
+      0: "0",
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%",
+      "full": "100%",
+      "screen": "68vh"
     },
   },
   variants: {},

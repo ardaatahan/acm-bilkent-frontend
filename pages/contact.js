@@ -1,8 +1,9 @@
 import Layout from "../components/layout";
+import Contact from "../components/contact";
 
 const ContactPage = () => (
-  <Layout title="Hakkımızda" description="ACM Bilkent Hakkımızda Sayfası">
-    <div>Hey</div>
+  <Layout title="İletişim" description="ACM Bilkent İletişim Sayfası">
+    <Contact />
   </Layout>
 );
 

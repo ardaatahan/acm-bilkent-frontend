@@ -18,49 +18,52 @@ const Contact = () => (
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap -m-4">
-        <div class="p-4 md:w-1/3">
-          <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-            <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+      <div className="flex flex-wrap -m-4">
+        <div className="p-4 md:w-1/3">
+          <div className="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
+            <div className="flex items-center mb-3">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <Position className="svg" />
               </div>
-              <h2 class="text-white text-lg title-font font-medium">Adres</h2>
+              <h2 className="text-white text-lg title-font font-medium">
+                Adres
+              </h2>
             </div>
-            <div class="flex-grow">
-              <p class="leading-relaxed text-base">
+            <div className="flex-grow">
+              <p className="leading-relaxed text-base">
                 Üniversiteler, 06800 Çankaya/Ankara
               </p>
             </div>
           </div>
         </div>
-        <div class="p-4 md:w-1/3">
-          <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-            <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+        <div className="p-4 md:w-1/3">
+          <div className="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
+            <div className="flex items-center mb-3">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <Phone className="svg" />
               </div>
-              <h2 class="text-white text-lg title-font font-medium">Telefon</h2>
+              <h2 className="text-white text-lg title-font font-medium">
+                Telefon
+              </h2>
             </div>
-            <div class="flex-grow">
-              <p class="leading-relaxed text-base">+90 507 974 49 11</p>
-              <p class="leading-relaxed text-base">+90 535 308 22 67</p>
+            <div className="flex-grow">
+              <p className="leading-relaxed text-base">+90 531 591 53 56</p>
+              <p className="leading-relaxed text-base">+90 534 360 03 99</p>
             </div>
           </div>
         </div>
-        <div class="p-4 md:w-1/3">
-          <div class="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
-            <div class="flex items-center mb-3">
-              <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+        <div className="p-4 md:w-1/3">
+          <div className="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
+            <div className="flex items-center mb-3">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
                 <Email className="svg" />
               </div>
-              <h2 class="text-white text-lg title-font font-medium">Email</h2>
+              <h2 className="text-white text-lg title-font font-medium">
+                Email
+              </h2>
             </div>
-            <div class="flex-grow">
-              <p class="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
-              </p>
+            <div className="flex-grow">
+              <p className="leading-relaxed text-base">example@email.com</p>
             </div>
           </div>
         </div>
