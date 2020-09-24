@@ -10,11 +10,12 @@ const History = () => (
             Tarihçe
           </h1>
           <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-            Geçtiğimiz yıllarda gerçekleştirdiğimiz etkinliklerden birkaçı.
+            Geçtiğimiz yıllarda gerçekleştirdiğimiz etkinlikler çok yakında
+            sizlerle birlikte olacak.
           </p>
         </div>
       </div>
-      <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      {/* <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
         <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
           <div className="h-full w-1 bg-gray-800 pointer-events-none"></div>
         </div>
@@ -135,7 +136,7 @@ const History = () => (
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </section>
 );

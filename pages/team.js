@@ -1,13 +1,26 @@
 import Layout from "../components/layout";
 import Team from "../components/team";
 
-const TeamPage = () => (
+import { fetchQuery } from "../lib/utils";
+
+const TeamPage = ({ members }) => (
   <Layout
-    title="Yönetim Kurulu"
+    title="Yönetim Kurulumuz"
     description="ACM Bilkent Yönetim Kurulu Sayfası"
   >
-    <Team />
+    <Team members={members} />
   </Layout>
 );
+
+export const getStaticProps = async () => {
+  const members = await fetchQuery("members");
+
+  return {
+    props: {
+      members,
+    },
+    revalidate: 1,
+  };
+};
 
 export default TeamPage;
