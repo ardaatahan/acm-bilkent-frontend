@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-import { baseUrl } from "../lib/utils";
-
 const Events = ({ description, showButton, events }) => (
   <section className="text-gray-500 bg-gray-900 body-font">
     <div className="container px-5 py-12 mx-auto">
@@ -25,7 +23,7 @@ const Events = ({ description, showButton, events }) => (
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src={`${baseUrl}${event.banner.url}`}
+                src={`${event.banner.url}`}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-white mt-5">

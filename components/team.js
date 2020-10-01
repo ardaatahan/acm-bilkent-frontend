@@ -1,5 +1,3 @@
-import { baseUrl } from "../lib/utils";
-
 const Team = ({ members }) => (
   <section className="text-gray-500 bg-gray-900 body-font">
     <div className="container px-5 pt-24 pb-12 mx-auto">
@@ -20,7 +18,7 @@ const Team = ({ members }) => (
               <img
                 alt="team"
                 className="flex-shrink-0 w-full h-56 object-cover object-center mb-4"
-                src={`${baseUrl}${member.photo.url}`}
+                src={`${member.photo.url}`}
               />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-white">
