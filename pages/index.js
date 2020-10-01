@@ -20,7 +20,7 @@ const IndexPage = ({ events }) => (
       description="Bu dönem gerçekleştireceğimiz etkinliklerin sadece birkaçı. Daha
             fazlası için etkinlikler sayfasını ziyaret etmeyi unutma!"
       showButton={true}
-      events={events.slice(0, 3)}
+      events={events.slice(3, 6)}
     />
     <Contact />
   </Layout>
