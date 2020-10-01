@@ -63,7 +63,12 @@ const Contact = () => (
               </h2>
             </div>
             <div className="flex-grow">
-              <p className="leading-relaxed text-base">example@email.com</p>
+              <p className="leading-relaxed text-base">
+                acmbilkent@bilkent.edu.tr
+              </p>
+              <p className="leading-relaxed text-base">
+                acmwbilkent@bilkent.edu.tr
+              </p>
             </div>
           </div>
         </div>
