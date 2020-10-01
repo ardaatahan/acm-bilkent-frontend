@@ -1,5 +1,5 @@
 const Event = ({ event }) => (
-  <section className="text-gray-500 bg-gray-900 body-font">
+  <section className="text-gray-500 bg-gray-900 body-font py-12 px-6">
     <img
       className="xl:w-1/4 lg:w-1/3 md:w-1/2 w-2/3 block mx-auto mb-10 object-cover object-center rounded"
       alt="hero"
