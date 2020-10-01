@@ -15,6 +15,10 @@ const TeamPage = ({ members }) => (
 export const getStaticProps = async () => {
   const members = await fetchQuery("members");
 
+  // Fix a very very weird bug
+  let member = members.shift();
+  members.push(member);
+
   return {
     props: {
       members,
